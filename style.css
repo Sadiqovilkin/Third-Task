@@ -1,0 +1,77 @@
+/* Aides-Banner */
+.aides-banner {
+  border: 1px solid black;
+}
+.main {
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f6f6f6;
+}
+.main-text {
+  width: 40%;
+  padding-top: 10%;
+}
+.main-text h1 {
+  font-size: 40px;
+}
+.blackbg {
+  background-color: black;
+  width: 10%;
+  height: 10px;
+}
+.fixed-background {
+  background-image: url(./Photos/2-blog-6273e47d754d6.webp);
+  width: 100%;
+  height: 400px;
+  background-attachment: fixed;
+}
+.footer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  background-color: #f6f6f6;
+}
+
+.circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 50%;
+  height: 160px;
+  text-align: center;
+}
+/* Tables */
+.tables {
+  width: 50%;
+  border: 1px solid black;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+  height: 300px;
+}
+th {
+  background-color: rgb(26, 136, 26);
+}
+tr:nth-child(odd) {
+  background-color: grey;
+}
+/* List */
+.list{
+    width: 25%;
+    border: 3px solid rgb(0, 102, 255);
+}
+.empty{width: 100%;
+height: 80px;
+text-align: center;
+}
